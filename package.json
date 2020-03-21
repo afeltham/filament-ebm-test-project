@@ -1,0 +1,13 @@
+{
+    "name"         : "filament-contrib-sample-project",
+    "version"      : "0.0.1",
+    "description"  : "A sample project with some simple domains",
+    "dependencies": {
+    },
+    "keywords": [ "filament-ebm" ],
+    "filament-ebm" : {
+        "files": [
+            "domain1.json"
+        ]
+    }
+}
