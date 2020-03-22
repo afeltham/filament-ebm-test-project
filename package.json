@@ -4,7 +4,12 @@
     "description"  : "A sample project with some simple domains",
     "dependencies": {
     },
-    "keywords": [ "filament-ebm" ],
+    "keywords": [ 
+        "filament-ebm",
+        "ebm",
+        "filament_ebm",
+        "filamentebm"
+    ],
     "filament-ebm" : {
         "files": [
             "domain1.json"
