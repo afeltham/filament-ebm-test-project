@@ -1,3 +1,276 @@
-{ 
-    "name" : "My first domain"
-}
+{
+    "name": "My Domain",
+    "description": "This is a test domain, it has a bunch of things in it. ",
+    "flow": [
+      {
+        "name": "My First Flow",
+        "description": null,
+        "colour": "#36c4a8",
+        "content": [
+          {
+            "name": "start",
+            "parent_id": null,
+            "responses": [
+              {
+                "response": [
+                  {
+                    "speech": "<p>Hi, how are you?</p>"
+                  },
+                  {
+                    "speech": "<p>What is your name?</p>"
+                  }
+                ],
+                "buttons": [],
+                "images": [],
+                "cards": [],
+                "custom": [],
+                "conditions": [],
+                "parameters": [],
+                "apis": []
+              }
+            ],
+            "redirect": null,
+            "utterance": {
+              "name": "get started"
+            },
+            "response": "<p>Hi, how are you?</p>"
+          },
+          {
+            "name": "reply-name",
+            "parent_id": 1,
+            "responses": [
+              {
+                "response": [
+                  {
+                    "speech": "<p>Great, nice to meet you. :)&nbsp;</p>"
+                  }
+                ],
+                "buttons": [],
+                "images": [],
+                "cards": [],
+                "custom": [],
+                "conditions": [],
+                "parameters": [],
+                "apis": []
+              },
+              {
+                "response": [
+                  {
+                    "speech": "<p>How can i help you today?</p>"
+                  }
+                ],
+                "buttons": [],
+                "images": [],
+                "cards": [],
+                "custom": [],
+                "conditions": [],
+                "parameters": [],
+                "apis": []
+              }
+            ],
+            "redirect": null,
+            "utterance": {
+              "name": "reply"
+            },
+            "response": "<p>Great, nice to meet you. :)&nbsp;</p>"
+          },
+          {
+            "name": "no",
+            "parent_id": 1,
+            "responses": [
+              {
+                "response": [
+                  {
+                    "speech": "Okay, whatever."
+                  }
+                ],
+                "buttons": [],
+                "images": [],
+                "cards": [],
+                "custom": [],
+                "conditions": [],
+                "parameters": [],
+                "apis": []
+              }
+            ],
+            "redirect": null,
+            "utterance": {
+              "name": "i dont want to tell you that"
+            },
+            "response": "Okay, whatever."
+          }
+        ]
+      },
+      {
+        "name": "Second Tree",
+        "description": null,
+        "colour": "#36c4a8",
+        "content": [
+          {
+            "name": "bye",
+            "parent_id": null,
+            "responses": [
+              {
+                "response": [
+                  {
+                    "speech": "Okay then, bye bye now. "
+                  }
+                ]
+              }
+            ],
+            "redirect": null,
+            "utterance": {
+              "name": "bye"
+            },
+            "response": "Okay then, bye bye now. "
+          }
+        ]
+      }
+    ],
+    "feedback": [
+      {
+        "name": "feedback",
+        "description": null,
+        "colour": "#6beaf3",
+        "content": [
+          {
+            "name": "was it good for you",
+            "parent_id": null,
+            "responses": [
+              {
+                "response": [
+                  {
+                    "speech": "it was great"
+                  }
+                ],
+                "buttons": [],
+                "images": [],
+                "cards": [],
+                "custom": [],
+                "conditions": [],
+                "parameters": [],
+                "apis": []
+              }
+            ],
+            "redirect": null,
+            "utterance": {
+              "name": "how was it?"
+            },
+            "response": "it was great"
+          },
+          {
+            "name": "sure",
+            "parent_id": 6,
+            "responses": [
+              {
+                "response": [
+                  {
+                    "speech": "yup i'm sure."
+                  }
+                ]
+              }
+            ],
+            "redirect": null,
+            "utterance": {
+              "name": "are you sure"
+            },
+            "response": "yup i'm sure."
+          },
+          {
+            "name": "no",
+            "parent_id": 6,
+            "responses": [
+              {
+                "response": [
+                  {
+                    "speech": "okay, whatever"
+                  }
+                ],
+                "buttons": [],
+                "images": [],
+                "cards": [],
+                "custom": [],
+                "conditions": [],
+                "parameters": [],
+                "apis": []
+              }
+            ],
+            "redirect": null,
+            "utterance": {
+              "name": "not really"
+            },
+            "response": "okay, whatever"
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "name": "Bot Questions",
+        "description": null,
+        "colour": "#36c4a8",
+        "content": [
+          {
+            "name": "age",
+            "parent_id": null,
+            "responses": [
+              {
+                "response": [
+                  {
+                    "speech": "<p>I'm just a new bot.</p>"
+                  },
+                  {
+                    "speech": "<p>Besides, you shouldn't really ask that question!</p>"
+                  }
+                ],
+                "buttons": [],
+                "images": [],
+                "cards": [],
+                "custom": [],
+                "conditions": [],
+                "parameters": [],
+                "apis": []
+              }
+            ],
+            "redirect": null,
+            "utterance": {
+              "name": "How old are you?"
+            },
+            "response": "<p>I'm just a new bot.</p>"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "description": null,
+        "colour": "#36c4a8",
+        "content": [
+          {
+            "name": "name",
+            "parent_id": null,
+            "responses": [
+              {
+                "response": [
+                  {
+                    "speech": "does it matter?"
+                  }
+                ],
+                "buttons": [],
+                "images": [],
+                "cards": [],
+                "custom": [],
+                "conditions": [],
+                "parameters": [],
+                "apis": []
+              }
+            ],
+            "redirect": null,
+            "utterance": {
+              "name": "what is your name?"
+            },
+            "response": "does it matter?"
+          }
+        ]
+      }
+    ]
+  }
