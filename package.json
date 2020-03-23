@@ -1,14 +1,11 @@
 {
     "name"         : "filament-contrib-sample-project",
-    "version"      : "0.0.2",
-    "description"  : "An updated sample project with some simple domains",
+    "version"      : "0.0.3",
+    "description"  : "A simple flow in Filament EBM to test being able to import content into it.",
     "dependencies": {
     },
     "keywords": [ 
-        "filament-ebm",
-        "ebm",
-        "filament_ebm",
-        "filamentebm"
+        "filament-ebm"
     ],
     "filament-ebm" : {
         "files": [
